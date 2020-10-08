@@ -9,18 +9,18 @@
       <fieldset>
         <legend> HTML FORMS</legend>
         <p>Name:</p>
-        <input type="Name" name="name" placeholder="Your name">
+        <input type="text" name="name" placeholder="Your name">
         <p>Surname:</p>
-        <input type="Surname" name="surname" placeholder="Your surname">
+        <input type="text" name="surname" placeholder="Your surname">
         <p>Email:</p>
-        <input type="email" name="email" placeholder="Your email">
+        <input type="text" name="email" placeholder="Your email">
         <p>Mobile:</p>
-        <input type="mobile" name="mobile" placeholder="+370">
+        <input type="tel" name="mobile" placeholder="+370">
         <p>Age</p>
-        <input type="age" name="age" size="3">
+        <input type="number" name="age">
         <p>Favorite food</p>
-        <label for="Favorite food"></label>
-        <select id="Favorite food" name="Favorite food">
+        <label for="Favorite-food"></label>
+        <select id="Favorite-food" name="Favorite-food">
           <option value="Meat">Meat</option>
           <option value="Vegetarian">Vegetarian</option>
           <option value="Sweet">Sweet</option>
@@ -38,8 +38,7 @@
                accept="image/png, image/jpeg">
        <p>Date:</p>
 
-       <input type="date" id="pateikimo data" name="pateikimo data"
-              value="yyyy-mm-dd">
+       <input type="date" id="pateikimo data" name="pateikimo data"/>
 
       <p>Enter your message:</p>
       <textarea name="message" id="" placeholder="Message..."></textarea>
